@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color:  hsl(228, 12%, 48%);
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+h1, strong{
+     font-family: 'Fraunces', serif;;
+}
+
+h1{
+    font-size: 38px;
+    color: #000;
+}
+
+strong{
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    height: 500px;
+}
+
+#img-principal{
+    width: 50%;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+H2{
+    font-size: 12px;
+}
+
+small{
+    text-decoration: line-through;
+    text-align: start;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    height: 50px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
